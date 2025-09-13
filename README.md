@@ -4,6 +4,8 @@ The project compares machine learning models for time-series forecasting.
 
 ---
 
+## 📁 Repository Structure
+
 | Path                                | Description                                                           |
 | ----------------------------------- | --------------------------------------------------------------------- |
 | `data/`                             | Folder containing the dataset                                         |

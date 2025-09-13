@@ -1,10 +1,12 @@
 # ⚡ Electricity-demand-forecast
+
 Predicting electricity demand using the UCI Electricity Load Diagrams dataset.
 The project compares machine learning models for time-series forecasting.
 
 ---
 
 ## 📁 Repository Structure
+
 ```
 electricity-demand-forecast/
 │
@@ -36,19 +38,23 @@ electricity-demand-forecast/
 ## 🛠️ Installation
 
 ### 1. 📥 Clone the repository:
+
 ```bash
 git clone https://github.com/mruifer/Electricity-demand-forecast.git
 cd Electricity-demand-forecast
 ```
 
 ### 2. ⚙️ Install dependencies
+
 #### 🟢 Option 1: Using Conda (Recommended)
+
 - Create and activate a environment:
 ```bash
 conda env create -f environment.yml
 conda activate elec_forcast
 ```
 #### 🔵 Option 2: Using pip and a virtualenv
+
 Make sure you have the right Python version installed.
 
 - Create and activate a virtual environment:
@@ -60,9 +66,11 @@ source elec_forcast/bin/activate   # On Windows use: elec_forcast\Scripts\activa
 ---
 
 ## 🚀 How to Use
-Run the notebooks in the notebooks/ folder to reproduce key experiments!
+
+Open and run the notebooks in the `notebooks/` folder using your preferred IDE or development environment (e.g., VSCode, JupyterLab) to reproduce the main experiments!
 
 ---
 
 ## 📚 Dependencies
+
 All listed (and their specific version) in enviroment.yml

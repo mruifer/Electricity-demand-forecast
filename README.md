@@ -25,6 +25,7 @@ electricity-demand-forecast/
 │   └── predict.py           # Script to generate predictions
 │
 ├── environment.yml          # Project dependencies
+├── LICENSE                  # Project license
 ├── README.md                # Project documentation
 └── .gitignore               # To ignore large data, __pycache__, etc.
 

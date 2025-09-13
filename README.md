@@ -1,4 +1,4 @@
-# Electricity-demand-forecast
+# ⚡ Electricity-demand-forecast
 Predicting electricity demand using the UCI Electricity Load Diagrams dataset.
 The project compares machine learning models for time-series forecasting.
 

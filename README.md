@@ -9,24 +9,25 @@ The project compares machine learning models for time-series forecasting.
 electricity-demand-forecast/
 │
 ├── data/
-│   ├── raw/                 # Datos originales descargados del UCI
-│   ├── processed/           # Datos limpios/preprocesados
+│   ├── raw/                 # Original data downloaded from UCI
+│   ├── processed/           # Cleaned/preprocessed data
 │
 ├── notebooks/
-│   ├── 01_data_exploration.ipynb   # Exploración y visualización
-│   ├── 02_preprocessing.ipynb      # Limpieza y transformación
-│   ├── 03_modeling.ipynb           # Modelos de ML y deep learning
+│   ├── 01_data_exploration.ipynb   # Data exploration and visualization
+│   ├── 02_preprocessing.ipynb      # Data cleaning and transformation
+│   ├── 03_modeling.ipynb           # Machine learning and deep learning models
 │
 ├── src/
-│   ├── data_loader.py       # Funciones para cargar y preprocesar
-│   ├── features.py          # Funciones para generar features
-│   ├── models.py            # Definición de modelos
-│   ├── train.py             # Script para entrenar modelos
-│   └── predict.py           # Script para predicciones
+│   ├── data_loader.py       # Functions to load and preprocess data
+│   ├── features.py          # Functions to generate features
+│   ├── models.py            # Model definitions
+│   ├── train.py             # Script to train models
+│   └── predict.py           # Script to generate predictions
 │
-├── requirements.txt         # Dependencias del proyecto
-├── README.md                # Documentación del proyecto
-└── .gitignore               # Para ignorar datos pesados, __pycache__, etc.
+├── environment.yml          # Project dependencies
+├── README.md                # Project documentation
+└── .gitignore               # To ignore large data, __pycache__, etc.
+
 ```
 
 ---

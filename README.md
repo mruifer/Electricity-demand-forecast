@@ -47,7 +47,7 @@ conda env create -f environment.yml
 conda activate elec_forcast
 ```
 ### 🔵 Option 2: Using pip and a virtualenv
-`Make sure you have the right Python version installed.`
+Make sure you have the right Python version installed.
 
 2. Create and activate a virtual environment:
 ```bash

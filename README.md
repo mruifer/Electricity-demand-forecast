@@ -67,7 +67,7 @@ source elec_forcast/bin/activate   # On Windows use: elec_forcast\Scripts\activa
 
 ## 🚀 How to Use
 
-Open and run the notebooks in the `notebooks/` folder using your preferred IDE or development environment (e.g., VSCode, JupyterLab) to reproduce the main experiments!
+Open and run the notebooks in the `notebooks/` folder using your preferred IDE or development environment (e.g., VSCode, JupyterLab) to reproduce the key experiments!
 
 ---
 

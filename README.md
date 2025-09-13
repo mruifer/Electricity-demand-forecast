@@ -1,7 +1,6 @@
 # ⚡ Electricity-demand-forecast
 
-Predicting electricity demand using the UCI Electricity Load Diagrams dataset.
-The project compares machine learning models for time-series forecasting.
+Forecasting electricity demand using the Kaggle Hourly Energy Consumption dataset. This project benchmarks different machine learning approaches for time-series prediction.
 
 ---
 

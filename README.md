@@ -35,20 +35,20 @@ electricity-demand-forecast/
 
 ## 🛠️ Installation
 
-1. 📥 Clone the repository:
+### 1. 📥 Clone the repository:
 ```bash
 git clone https://github.com/mruifer/Electricity-demand-forecast.git
 cd Electricity-demand-forecast
 ```
 
-2. ⚙️ Install dependencies
-### 🟢 Option 1: Using Conda (Recommended)
+### 2. ⚙️ Install dependencies
+#### 🟢 Option 1: Using Conda (Recommended)
 - Create and activate a environment:
 ```bash
 conda env create -f environment.yml
 conda activate elec_forcast
 ```
-### 🔵 Option 2: Using pip and a virtualenv
+#### 🔵 Option 2: Using pip and a virtualenv
 Make sure you have the right Python version installed.
 
 - Create and activate a virtual environment:

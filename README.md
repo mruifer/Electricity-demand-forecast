@@ -1,6 +1,6 @@
 # ⚡ Electricity-demand-forecast
 
-Forecasting electricity demand using the Kaggle Hourly Energy Consumption dataset. This project benchmarks different machine learning approaches for time-series prediction.
+Forecasting electricity demand using the [Kaggle Hourly Energy Consumption](https://www.kaggle.com/datasets/robikscube/hourly-energy-consumption?resource=download) dataset. This project benchmarks different machine learning approaches for time-series prediction.
 
 ---
 

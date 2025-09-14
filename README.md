@@ -50,7 +50,7 @@ cd Electricity-demand-forecast
 - Create and activate a environment:
 ```bash
 conda env create -f environment.yml
-conda activate elec_forcast
+conda activate elec_forecast
 ```
 #### 🔵 Option 2: Using pip and a virtualenv
 
@@ -59,7 +59,7 @@ Make sure you have the right Python version installed.
 - Create and activate a virtual environment:
 ```bash
 python -m venv elec_forcast
-source elec_forcast/bin/activate   # On Windows use: elec_forcast\Scripts\activate
+source elec_forecast/bin/activate   # On Windows use: elec_forecast\Scripts\activate
 ```
 
 ---

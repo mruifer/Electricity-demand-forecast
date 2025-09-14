@@ -1,4 +1,4 @@
-name: el_forcast
+name: elec_forecast
 channels:
   - conda-forge
   - defaults

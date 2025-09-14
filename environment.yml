@@ -1,0 +1,26 @@
+name: el_forcast
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Core
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - scikit-learn
+  - statsmodels
+
+  # Visualization
+  - matplotlib
+  - seaborn
+
+  # Jupyter / Notebooks
+  - jupyter
+  - ipykernel
+
+  # Pip-only packages
+  - pip:
+      - kagglehub   # Datasets from Kaggle
+      - tensorflow  # Deep learning

@@ -38,6 +38,9 @@ def add_time_features(df: pd.DataFrame, datetime_col: str = None) -> pd.DataFram
     # Month (1–12)
     df["Month"] = dt_index.month
 
+    # Year
+    df["Year"] = df.index.year
+
     # Season (categorical: winter, spring, summer, fall)
     def season_from_month(month):
         if month in [12, 1, 2]:

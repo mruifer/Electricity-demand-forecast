@@ -58,7 +58,7 @@ Make sure you have the right Python version installed.
 
 - Create and activate a virtual environment:
 ```bash
-python -m venv el_forcast
+python -m venv elec_forcast
 source elec_forcast/bin/activate   # On Windows use: elec_forcast\Scripts\activate
 ```
 

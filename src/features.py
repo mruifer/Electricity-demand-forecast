@@ -8,12 +8,12 @@ def add_time_features(df: pd.DataFrame, target_col: str, datetime_col: str = Non
     ----------
     df : pd.DataFrame
         DataFrame containing the time series.
+    target_col : str
+        Name of the target column to create lag features from.
     datetime_col : str, optional
         Name of the datetime column. If None, the index is assumed to be a DatetimeIndex.
     n_lags : int, default 0
         Number of lag features to create from the target column.
-    target_col : str, default "AEP_MW_scaled"
-        Name of the target column to create lag features from.
 
     Returns
     -------

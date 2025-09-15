@@ -55,6 +55,6 @@ def add_time_features(df: pd.DataFrame, datetime_col: str = None) -> pd.DataFram
     df["Season"] = df["Month"].map(season_from_month)
 
     # Convert to numerical value each season
-    df = pd.get_dummies(df, columns=["Season"], drop_first=True)
+    df = pd.get_dummies(df, columns=["Season"], drop_first=False)
 
     return df

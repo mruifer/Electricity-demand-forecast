@@ -19,7 +19,8 @@ electricity-demand-forecast/
 │   ├── 03_modeling.ipynb           # Machine learning and deep learning models
 │
 ├── src/
-│   ├── data_loader.py              # Functions to load and preprocess data
+│   ├── data_cleaner.py             # Functions to clean and fix data
+│   ├── data_loader.py              # Functions to load data
 │   ├── features.py                 # Functions to generate features
 │   ├── models.py                   # Model definitions
 │   ├── train.py                    # Script to train models

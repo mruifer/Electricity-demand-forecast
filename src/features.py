@@ -50,7 +50,7 @@ def add_time_features(df: pd.DataFrame, target_col: str, datetime_col: str = Non
             return "fall"
 
     df["Season"] = df["Month"].map(season_from_month)
-    df = pd.get_dummies(df, columns=["Season"], drop_first=False)
+    df = pd.get_dummies(df, columns=["Season"],dtype=int,  drop_first=False)
 
     # Lag features
     if n_lags > 0:
